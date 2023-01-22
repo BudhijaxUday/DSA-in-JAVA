@@ -216,3 +216,18 @@ Non-primitive types can be used to call methods to perform certain operations, w
 A primitive type has always a value, while non-primitive types can be null.
 A primitive type starts with a lowercase letter, while non-primitive types starts with an uppercase letter.
 The size of a primitive type depends on the data type, while non-primitive types have all the same size.
+
+//Basic program of printing an integer in java by taking value from user==>
+
+package com.uday;
+
+import java.util.Scanner;
+
+public class demo {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.print("Please enter some input: ");
+        int rollno = input.nextInt();
+        System.out.println("Your roll no. is "+rollno+".");
+    }
+}
